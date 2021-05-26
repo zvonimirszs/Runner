@@ -31,3 +31,5 @@ Igru je moguce pauzirati (Esc ili P). Nakon smrti moguce je igru ponovo pokrenut
 7. Upotreba svjetla
  - Upotreba dinamickih svjetala
  - Osvjetljenje scene sa svjetiljkom
+
+Što još
