@@ -1,0 +1,33 @@
+Runner 3D
+Igrac mora doci do prostorije u bunkeru uništavajuci zombije.
+Igra ima jednu razinu. Na razini je šumoviti teren iz kojeg se ulazi u podzemni bunker. Za izradu scene sam korisitio terrain i ProBuilder te razlicite propse. 
+Na cijeloj mapi se mogu skupljati municija i baterija za svjetiljku. Igrac ima 3 razlicita oružja (2 razlicita tipa municije). 
+Municija se smanjuje nakon pucnja. Skupljanjem municije na mapi povecava se broj municije.
+Svako oružje ima svoju jacinu štete i daljinu pucanja.
+Igrac može mijenjati oružje u igri (brojevima ili scrool na mišu). Jedna od pušaka ima zoom.
+Zombiji mogu mirovati, kretati se i napadati. Zombiji imaju definirano koliko štete nanose. Nakon uništavanja ostaju ležati na podu.
+Zombiji imaju definiranu aktivaciju (udaljenost i pucanje na njih). Nakon aktivacije prate i napadaju igraca.
+Igru je moguce pauzirati (Esc ili P). Nakon smrti moguce je igru ponovo pokrenuti ili odustati.
+
+1. Ingame izbornik
+ - Opcije za ponovno pokretanje, izlazak u glavni izbornik 
+ - Igra se zaustavi/pauzira kod pokretanja izbornika
+2. HUD (max 5 bodova)
+ - Prikaz podataka o broju metaka za oružje koje se korsiti na sucelju
+ - Prikaz udarca zombija
+3. Dinamicko stvaranje i uništavanje objekata 
+ - dinamicko postvaljanje prefabova na sucelje te uništenje 
+4. Upotreba fizike i detekcija sudara
+ - Korištenje ugradene fizike
+ - Zombiji prate igraca
+ - Korištenje detekcije sudara
+ - Korištenje metode OnTrigger
+5. Upotreba sustava za višestruko korištenje objekata
+ - Višestruko iskorištavanje objekata - NISAM NAPRAVIO
+ - Implementacija vlastitog sustava za pooling - NISAM NAPRAVIO
+6. Upotreba materijala
+ - Korištenje materijala skinutih s Asset store?
+ - Izrada custom materijala koristeci vlastite teksture i dostupne shadere
+7. Upotreba svjetla
+ - Upotreba dinamickih svjetala
+ - Osvjetljenje scene sa svjetiljkom
