@@ -42,12 +42,14 @@ GameObject:
   - component: {fileID: 489372}
   - component: {fileID: 3337938}
   - component: {fileID: 2335594}
+  - component: {fileID: 4450966962882460705}
+  - component: {fileID: 9162011434107883250}
   m_Layer: 0
   m_Name: Box246
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &489372
 Transform:
@@ -108,3 +110,32 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4450966962882460705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4315002, y: 0.255745, z: 0.282973}
+  m_Center: {x: 2.5313802, y: 0.67426443, z: -0.18284151}
+--- !u!208 &9162011434107883250
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189620}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.216, y: 0.128, z: 0.141}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 2.5310001, y: 0.674, z: -0.18300001}
+  m_TimeToStationary: 0.5

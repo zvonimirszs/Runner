@@ -42,12 +42,14 @@ GameObject:
   - component: {fileID: 426064}
   - component: {fileID: 3352310}
   - component: {fileID: 2339986}
+  - component: {fileID: 8555503050755051456}
+  - component: {fileID: 4615255810389980721}
   m_Layer: 0
   m_Name: Box04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &426064
 Transform:
@@ -108,3 +110,32 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!208 &8555503050755051456
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137548}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.81600004, y: 0.49, z: 0.041}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -4.4750004, y: -0.54800004, z: -0.010000001}
+  m_TimeToStationary: 0.5
+--- !u!65 &4615255810389980721
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6319888, y: 0.9796579, z: 0.082349}
+  m_Center: {x: -4.4746842, y: -0.54817, z: -0.010146501}
